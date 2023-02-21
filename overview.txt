@@ -3,6 +3,7 @@ First commit:-
    add spring security dependencies only (default login).
 
 
+Second commitL-
 
 
 
@@ -11,6 +12,8 @@ First commit:-
     Basic Authentication:- in which a sample pop is open instead of a form based.
                             no logout was possible
                             it is also compatible with postman and browser.
+                            This way of authentication was mostly used but not recommended because we have more way to authencate the user.
+                            in which we have a default user and auto generated password.
                             
  how to implement spring security?
  why we use spring security?
