@@ -1,0 +1,22 @@
+First commit:-
+   add a basic controller which have only the a greeting message
+   add spring security dependencies only (default login).
+
+
+
+
+
+ what is spring security?
+ type we have?
+    Basic Authentication:- in which a sample pop is open instead of a form based.
+                            no logout was possible
+                            it is also compatible with postman and browser.
+                            
+ how to implement spring security?
+ why we use spring security?
+ what is authentication?
+ what is authorization?
+ what is filter?
+ how spring security works? working behind the screen?
+
+
