@@ -1,0 +1,8 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(€½¼8Î’¿Ç”1
+{
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ˆß®®ÿÿÿÿÿ8øÙ½Ç”1
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ıÙ½Ç”1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(İÓÄşÿÿÿÿ8Ø’¿Ç”1
