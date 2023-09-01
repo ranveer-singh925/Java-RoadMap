@@ -8,7 +8,7 @@ package serialization_deseriliazation;
  * first we have to convert the object in the sequence of byte stream.
  * and then we transfer to the network or file or save into db.(after conversion*)
  *
- * real world example - while we are player the game (BGMI)-> when a player-A move there hand then the hand is property and the movement is behavior and the state is change
+ * real world example - while we are player the game (BGMI)-> when a player-A move there hand then the hand is property and the movement is behavior and the state is changed
  * it means the object is transfer thought the network and read the byte and show the changes to your display that the player-A movement.
  *
  */
@@ -38,46 +38,4 @@ public class SerializationDemo {
 }
 
 
-// only those object is serializable whose implement Serializable interface (it only enable the serializibility of the class)
-class Student implements Serializable {
-    private String name;
-    private String age;
-    private String gender;
-
-    public Student(String name, String age, String gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-    }
-
-    public Student() {
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    String dummyMethod() {
-        return "Working in the progress!!";
-    }
-}
+/* only those object is serializable whose implement Serializable interface (it only enable the serializibility of the class) */
